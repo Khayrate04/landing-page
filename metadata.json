@@ -1,0 +1,8 @@
+{
+  "name": "Remix: sams club",
+  "description": "An exact replica of the Subway $100 gift card registration and reward landing page with interactive claims, mobile responsive layout, simulated sponsored deals, and FAQ accordion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
