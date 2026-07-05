@@ -37,41 +37,6 @@ export default function App() {
             </p>
           </div>
 
-          {/* REWARD CARD IMAGES (GRID) */}
-          <div className="bg-white px-6 pb-8">
-            <div className="grid grid-cols-2 gap-4">
-              {/* Image 1: Closeup */}
-              <div className="group relative bg-white rounded-2xl border border-slate-100 shadow-[0_4px_16px_rgba(0,75,135,0.02)] p-1.5 transition-all duration-300 hover:shadow-[0_8px_24px_rgba(0,75,135,0.06)] hover:-translate-y-0.5">
-                <div className="aspect-[1.58/1] overflow-hidden rounded-xl bg-slate-50 flex items-center justify-center">
-                  <img
-                    src="/src/assets/images/sams_750_card_closeup_1781459178861.jpg"
-                    alt="$750 Sam's Club Gift Card Closeup"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-                <div className="mt-2 text-center">
-                  <span className="text-[10px] font-extrabold text-slate-400 tracking-wider uppercase">Digital Voucher</span>
-                </div>
-              </div>
-
-              {/* Image 2: Batch */}
-              <div className="group relative bg-white rounded-2xl border border-slate-100 shadow-[0_4px_16px_rgba(0,75,135,0.02)] p-1.5 transition-all duration-300 hover:shadow-[0_8px_24px_rgba(0,75,135,0.06)] hover:-translate-y-0.5">
-                <div className="aspect-[1.58/1] overflow-hidden rounded-xl bg-slate-50 flex items-center justify-center">
-                  <img
-                    src="/src/assets/images/sams_club_750_cards_1781458808629.jpg"
-                    alt="Sam's Club Gift Cards Batch"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-                <div className="mt-2 text-center">
-                  <span className="text-[10px] font-extrabold text-slate-400 tracking-wider uppercase">Member Pack</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* BOTTOM STEPS SECTION (SLATE/GRAY BACKGROUND WITH ROUNDED-T-3XL) */}
           <div className="bg-[#F8FAFC] border-t border-slate-100/60 rounded-t-[32px] px-6 py-8 flex flex-col gap-6">
             {/* STEP List */}
